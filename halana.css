@@ -1,0 +1,22 @@
+body {
+	background-color: #F5DEB3;
+}
+
+h1 {
+	color: #8B0000;
+	font-size: 50px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+header{
+    background:#F5DEB3;
+}
+.logo{
+    width: 7%;
+    border-radius: 50%;
+}
