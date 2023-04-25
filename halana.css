@@ -31,3 +31,13 @@ header{
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.curupira{
+    border: black; 
+    background-color: antiquewhite;
+    width: 60%;
+    padding: 50px;
+    margin: 5% 17% 5% 15%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
