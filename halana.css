@@ -67,3 +67,30 @@ img{
 .menu li a:hover{
     background-color: rgba(56, 53, 53, 0.518);
 }
+.footer-distributed {
+    background-color: #292c2f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 45px 50px;
+}
+  
+.footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    color: #ffffff;  
+  }
+  
+  .footer-distributed p.footer-links a {
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+.footer-distributed .footer-links a:before {
+    content: "·";
+    padding-right: 5px;
+} 
