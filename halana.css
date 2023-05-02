@@ -14,22 +14,35 @@ p {
 	margin-top: 50px;
 }
 header{
-    background:#F5DEB3;
+    background: #8B0000;
+    padding: 20PX;
+    max-height: 90;
+    text-align: center ;
 }
-.logo{
-    width: 7%;
-    border-radius: 50%;
+.logoimg{
+    max-width: 0px;
+    padding: 0px;
+}
+.menu{
+    text-align: center ;
+    
+}
+.menu ul{
+	list-style-type: none;
+	margin: 0px;
+    padding: 0px;
 }
 .menu li{
-	display: inline-block;
-	margin: 0px;
-	border: solid black 2px;
-	color:black
+    display: inline-block;
+    padding: 20px;
+    margin-right: 20;
 }
-.menu li a{
-	font-size: 24px;
-	text-decoration: none;
-	text-transform: uppercase;
+.menu li:last-child{
+    margin-right: 0;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 .curupira{
     border: black; 
@@ -40,4 +53,17 @@ header{
     display: inline-block;
     text-align: center;
     justify-content: center;
+}
+.nome{
+    color: #6d2828;
+}
+img{
+    mix-blend-mode: multiply;
+    text-align: center;
+}
+.td{
+    font-size: larger;
+}
+.menu li a:hover{
+    background-color: rgba(56, 53, 53, 0.518);
 }
