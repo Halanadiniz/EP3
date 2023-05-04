@@ -43,6 +43,7 @@ header{
 .menu a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+    cursor: pointer;
 }
 .curupira{
     border: black; 
@@ -94,3 +95,6 @@ img{
     content: "·";
     padding-right: 5px;
 } 
+.curupira h3{
+    cursor: pointer;
+}
