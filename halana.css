@@ -1,5 +1,7 @@
 body {
 	background-color: #F5DEB3;
+    
+    
 }
 
 h1 {
@@ -18,7 +20,46 @@ header{
     padding: 20PX;
     max-height: 90;
     text-align: center ;
+    background-image: url(img/fnd.gif);
 }
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #330202;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    float: inline-end;
+    text-align: center;
+    height: 32px;
+    width: 316px;
+  }
+  
+  #busca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #botão{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#6d0909;
+  }
+  
+  #divBusca img{
+    float:left;
+    max-width: 15%;
+
+  }
+  
 .logoimg{
     max-width: 0px;
     padding: 0px;
