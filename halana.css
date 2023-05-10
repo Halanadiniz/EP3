@@ -1,150 +1,146 @@
 body {
-	background-color: #F5DEB3;
-    
-    
+	background-color: #F5DEB3; /*mudar a cor do body*/  
 }
 
-h1 {
-	color: #8B0000;
-	font-size: 50px;
-	text-align: center;
+h1 { /*titulo*/
+	color: #8B0000; /*muda cor dos titulos*/ 
+	font-size: 50px; /*muda tamanho da letra*/
+	text-align: center;  /*centralizar o titulo*/
 }
 
-p {
-	font-size: 20px;
-	text-align: center;
-	margin-top: 50px;
+p { /*paragrafo*/
+	font-size: 20px;  /*muda tamanho da letra*/
+	text-align: center;  /*centralizar paragrafo*/
+	margin-top: 50px; /*espaço acima do elemento*/
 }
-header{
-    background: #8B0000;
-    padding: 20PX;
-    max-height: 90;
-    text-align: center ;
-    background-image: url(img/fnd.gif);
+header{ /*cabeçalho*/
+    background: #8B0000; /*mudar cor do header*/
+    padding: 20PX; /*definir distancia entre um elemento e sua borda*/
+    max-height: 90; /*defenir maximo que a altura chega e nao pode ultrapassar*/
+    text-align: center ; /*centralizar*/
+    background-image: url(img/fnd.gif); /* definir a imagem/gif no header*/
 }
-#divBusca{
-    background-color:#E0EEEE;
-    border:solid 2px #330202;
-    border-radius:10px;
-    width:300px;
-    height:32px;
-    float: inline-end;
-    text-align: center;
-    height: 32px;
-    width: 316px;
+#divBusca{ 
+    background-color:#E0EEEE; /*mudar a cor do fundo*/
+    border:solid 2px #330202; /*deixar a borda fixa*/
+    border-radius:10px; /*deixa as bordas redondas*/
+    width:300px; /*largura*/
+    height:32px; /*altura*/
+    float: inline-end; 
+    text-align: center; /*centralizar*/ 
+    height: 32px; /*largura*/
+    width: 316px; /*altura*/
   }
   
   #busca{
     float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
+    background-color:transparent;  
+    padding-left:5px; /*distância no lado esquerdo do box*/
+    font-size:18px; /*muda tamanho da letra*/
     border:none;
-    height:32px;
-    width:191px;
+    height:32px; /*largura*/
+    width:191px; /*altura*/
   }
   
   #botão{
     border:none;
     float:left;
-    height:32px;
-    border-radius:0 7px 7px 0;
-    width:70px;
-    font-weight:bold;
-    background:#6d0909;
+    height:32px; /*largura*/
+    border-radius:0 7px 7px 0; /*deixa as bordas redondas*/
+    width:70px; /*altura*/
+    font-weight:bold; /* especifica o peso ou a intensidade da fonte (ex.: negrito)*/
+    background:#6d0909; /*trata do fundo dos elementos*/
   }
   
   #divBusca img{
     float:left;
-    max-width: 15%;
-
+    max-width: 15%; /*estabelece a largura máxima de um elemento*/
   }
   
 .logoimg{
-    max-width: 0px;
-    padding: 0px;
+    max-width: 0px; /*estabelece a largura máxima de um elemento*/
+    padding: 0px; /*definir distancia entre um elemento e sua borda*/
 }
 .menu{
-    text-align: center ;
-    
+    text-align: center ; /*centralizar*/
 }
 .menu ul{
 	list-style-type: none;
-	margin: 0px;
-    padding: 0px;
+	margin: 0px; /*defini a margem dos lados*/
+    padding: 0px; /*definir distancia entre um elemento e sua borda*/
 }
 .menu li{
-    display: inline-block;
-    padding: 20px;
-    margin-right: 20;
+    display: inline-block; /*organizar os elementos lado a lado e definirmos as propriedades de largura e altura*/
+    padding: 20px; /*definir distancia entre um elemento e sua borda*/
+    margin-right: 20; /*para determinar a distância no lado direito*/
 }
 .menu li:last-child{
-    margin-right: 0;
+    margin-right: 0; /*para determinar a distância no lado direito*/
 }
 .menu a{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /*cor das letras*/
     text-decoration: none;
-    cursor: pointer;
+    cursor: pointer; /*muda o cursor do mouse quando toca no texto*/
 }
 .curupira{
     border: black; 
-    background-color: antiquewhite;
-    width: 60%;
-    padding: 50px;
-    margin: 0% 17% 5% 15%;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
+    background-color: antiquewhite; /*mudar a cor do fundo*/
+    width: 60%; /*altura*/
+    padding: 50px;  /*definir distancia entre um elemento e sua borda*/
+    margin: 0% 17% 5% 15%; /*defini a margem dos lados*/
+    display: inline-block; /*organizar os elementos lado a lado e definirmos as propriedades de largura e altura*/
+    text-align: center; /*centralizar*/
+    justify-content: center; /*é usada para alinhar os elementos ao longo do eixo principal*/
 }
 .nome{
-    color: #6d2828;
+    color: #6d2828; /*cor das letras*/
 }
 img{
     mix-blend-mode: multiply;
-    text-align: center;
+    text-align: center; /*centralizar*/
 }
 .td{
-    font-size: larger;
+    font-size: larger; /*é usada para indicar o tamanho da letra*/
 }
 .menu li a:hover{
-    background-color: rgba(56, 53, 53, 0.518);
+    background-color: rgba(56, 53, 53, 0.518); /*mudar a cor do fundo*/
 }
 .footer-distributed {
-    background-color: #292c2f;
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    padding: 45px 50px;
+    background-color: #292c2f; /*mudar a cor do fundo*/
+    box-sizing: border-box; /*é utilizada para alterar a propriedade padrão da box model*/
+    width: 100%; /*altura*/
+    text-align: left; /*centralizar*/
+    padding: 45px 50px; /*definir distancia entre um elemento e sua borda*/
 }
   
 .footer-distributed .footer-left p {
-    color: #8f9296;
-    font-size: 14px;
-    margin: 0;
+    color: #8f9296; /*cor das letras*/
+    font-size: 14px; /*é usada para indicar o tamanho da letra*/
+    margin: 0; /*defini a margem dos lados*/
   }
 .footer-distributed p.footer-links {
-    font-size: 18px;
-    color: #ffffff;  
+    font-size: 18px; /*é usada para indicar o tamanho da letra*/
+    color: #ffffff;  /*cor das letras*/
   }
   
   .footer-distributed p.footer-links a {
-    line-height: 1.8;
+    line-height: 1.8; /*permite controlar o espaçamento entre as linhas de um texto*/ 
     text-decoration: none;
-    color: inherit;
+    color: inherit; /*utilizada para definir a cor do texto*/
 }
 .footer-distributed .footer-links a:before {
     content: "·";
-    padding-right: 5px;
+    padding-right: 5px; /*indica a distância aplicada no lado direito do elemento*/
 } 
 .curupira h3{
-    cursor: pointer;
+    cursor: pointer; /*muda o cursor do mouse quando toca no texto*/
 }
 .adadhy01{
-height: 250px;
+    height: 250px; /*largura*/
 }
 .alexandra{
-    height: 250px;
+    height: 250px; /*largura*/
 }
 .coruja{ 
-    height: 250px;
+    height: 250px; /*largura*/
 }
