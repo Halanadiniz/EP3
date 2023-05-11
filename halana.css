@@ -20,43 +20,6 @@ header{ /*cabeçalho*/
     text-align: center ; /*centralizar*/
     background-image: url(img/fnd.gif); /* definir a imagem/gif no header*/
 }
-#divBusca{ 
-    background-color:#E0EEEE; /*mudar a cor do fundo*/
-    border:solid 2px #330202; /*deixar a borda fixa*/
-    border-radius:10px; /*deixa as bordas redondas*/
-    width:300px; /*largura*/
-    height:32px; /*altura*/
-    float: inline-end; 
-    text-align: center; /*centralizar*/ 
-    height: 32px; /*largura*/
-    width: 316px; /*altura*/
-  }
-  
-  #busca{
-    float:left;
-    background-color:transparent;  
-    padding-left:5px; /*distância no lado esquerdo do box*/
-    font-size:18px; /*muda tamanho da letra*/
-    border:none;
-    height:32px; /*largura*/
-    width:191px; /*altura*/
-  }
-  
-  #botão{
-    border:none;
-    float:left;
-    height:32px; /*largura*/
-    border-radius:0 7px 7px 0; /*deixa as bordas redondas*/
-    width:70px; /*altura*/
-    font-weight:bold; /* especifica o peso ou a intensidade da fonte (ex.: negrito)*/
-    background:#6d0909; /*trata do fundo dos elementos*/
-  }
-  
-  #divBusca img{
-    float:left;
-    max-width: 15%; /*estabelece a largura máxima de um elemento*/
-  }
-  
 .logoimg{
     max-width: 0px; /*estabelece a largura máxima de um elemento*/
     padding: 0px; /*definir distancia entre um elemento e sua borda*/
@@ -79,7 +42,7 @@ header{ /*cabeçalho*/
 }
 .menu a{
     color: rgb(0, 0, 0); /*cor das letras*/
-    text-decoration: none;
+    text-decoration: none; /*zerar decoração de texto*/
     cursor: pointer; /*muda o cursor do mouse quando toca no texto*/
 }
 .curupira{
@@ -96,7 +59,7 @@ header{ /*cabeçalho*/
     color: #6d2828; /*cor das letras*/
 }
 img{
-    mix-blend-mode: multiply;
+    mix-blend-mode: multiply;/*descreve como um elemento de conteúdo deve ser mesclado com os elementos abaixo dele no background*/
     text-align: center; /*centralizar*/
 }
 .td{
@@ -125,11 +88,11 @@ img{
   
   .footer-distributed p.footer-links a {
     line-height: 1.8; /*permite controlar o espaçamento entre as linhas de um texto*/ 
-    text-decoration: none;
+    text-decoration: none;/*zerar decoração do texto*/
     color: inherit; /*utilizada para definir a cor do texto*/
 }
 .footer-distributed .footer-links a:before {
-    content: "·";
+    content: "·"; /*é usada com os before e after para gerar conteúdo em um elemento*/
     padding-right: 5px; /*indica a distância aplicada no lado direito do elemento*/
 } 
 .curupira h3{
