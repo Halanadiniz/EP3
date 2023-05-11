@@ -20,32 +20,32 @@ header{ /*cabeçalho*/
     text-align: center ; /*centralizar*/
     background-image: url(img/fnd.gif); /* definir a imagem/gif no header*/
 }
-.logoimg{
+.logoimg{ /*imagem do logo*/
     max-width: 0px; /*estabelece a largura máxima de um elemento*/
     padding: 0px; /*definir distancia entre um elemento e sua borda*/
 }
-.menu{
+.menu{ /*menu*/
     text-align: center ; /*centralizar*/
 }
-.menu ul{
-	list-style-type: none;
+.menu ul{ /*menu*/
+	list-style-type: none; /*remove o marcador de lista do <ul> e <ol> */
 	margin: 0px; /*defini a margem dos lados*/
     padding: 0px; /*definir distancia entre um elemento e sua borda*/
 }
-.menu li{
+.menu li{ /*menu*/
     display: inline-block; /*organizar os elementos lado a lado e definirmos as propriedades de largura e altura*/
     padding: 20px; /*definir distancia entre um elemento e sua borda*/
     margin-right: 20; /*para determinar a distância no lado direito*/
 }
-.menu li:last-child{
+.menu li:last-child{ /*menu*/
     margin-right: 0; /*para determinar a distância no lado direito*/
 }
-.menu a{
+.menu a{ /*menu*/
     color: rgb(0, 0, 0); /*cor das letras*/
     text-decoration: none; /*zerar decoração de texto*/
     cursor: pointer; /*muda o cursor do mouse quando toca no texto*/
 }
-.curupira{
+.curupira{ /*class de texto*/
     border: black; 
     background-color: antiquewhite; /*mudar a cor do fundo*/
     width: 60%; /*altura*/
@@ -55,20 +55,20 @@ header{ /*cabeçalho*/
     text-align: center; /*centralizar*/
     justify-content: center; /*é usada para alinhar os elementos ao longo do eixo principal*/
 }
-.nome{
+.nome{ /*class de titulo*/
     color: #6d2828; /*cor das letras*/
 }
-img{
+img{ /*imgens*/
     mix-blend-mode: multiply;/*descreve como um elemento de conteúdo deve ser mesclado com os elementos abaixo dele no background*/
     text-align: center; /*centralizar*/
 }
-.td{
+.td{ /*conteudo*/
     font-size: larger; /*é usada para indicar o tamanho da letra*/
 }
-.menu li a:hover{
+.menu li a:hover{ /*menu*/
     background-color: rgba(56, 53, 53, 0.518); /*mudar a cor do fundo*/
 }
-.footer-distributed {
+.footer-distributed { /*roda pé*/
     background-color: #292c2f; /*mudar a cor do fundo*/
     box-sizing: border-box; /*é utilizada para alterar a propriedade padrão da box model*/
     width: 100%; /*altura*/
@@ -76,34 +76,34 @@ img{
     padding: 45px 50px; /*definir distancia entre um elemento e sua borda*/
 }
   
-.footer-distributed .footer-left p {
+.footer-distributed .footer-left p { /*roda pé*/
     color: #8f9296; /*cor das letras*/
     font-size: 14px; /*é usada para indicar o tamanho da letra*/
     margin: 0; /*defini a margem dos lados*/
   }
-.footer-distributed p.footer-links {
+.footer-distributed p.footer-links {/*roda pé*/
     font-size: 18px; /*é usada para indicar o tamanho da letra*/
     color: #ffffff;  /*cor das letras*/
   }
   
-  .footer-distributed p.footer-links a {
+  .footer-distributed p.footer-links a {/*roda pé*/
     line-height: 1.8; /*permite controlar o espaçamento entre as linhas de um texto*/ 
     text-decoration: none;/*zerar decoração do texto*/
     color: inherit; /*utilizada para definir a cor do texto*/
 }
-.footer-distributed .footer-links a:before {
+.footer-distributed .footer-links a:before { /*roda pé*/
     content: "·"; /*é usada com os before e after para gerar conteúdo em um elemento*/
     padding-right: 5px; /*indica a distância aplicada no lado direito do elemento*/
 } 
-.curupira h3{
+.curupira h3{ /*class de texto no h3*/
     cursor: pointer; /*muda o cursor do mouse quando toca no texto*/
 }
-.adadhy01{
+.adadhy01{ /*class adadhy*/
     height: 250px; /*largura*/
 }
-.alexandra{
+.alexandra{ /*class adadhy*/
     height: 250px; /*largura*/
 }
-.coruja{ 
+.coruja{/*class borboleta*/
     height: 250px; /*largura*/
 }
